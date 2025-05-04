@@ -5,12 +5,13 @@ module.exports = {
       './themes/**/*.{html,js,md}',
     ],
     safelist: [
-      'md:text-base',
-      'text-sm',
-      'text-center',
-      'bg-white',
-      'dark:bg-black',
-      'dark:text-white',
+      {
+        pattern: /^(md|lg|xl|sm):text-.+$/,
+        variants: ['responsive'],
+      },
+      {
+        pattern: /^text-.+$/,
+      },
     ],
     theme: {
       extend: {},
@@ -19,5 +20,5 @@ module.exports = {
       require('@tailwindcss/forms'),
       require('@tailwindcss/typography'),
     ],
-  };
+  }
   
