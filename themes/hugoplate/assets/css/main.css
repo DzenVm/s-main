@@ -1,11 +1,8 @@
 @import "tailwindcss";
-@plugin "@tailwindcss/forms";
-@plugin "@tailwindcss/typography";
-@plugin "../../../../tailwind-plugin/tw-theme";
-@plugin "../../../../tailwind-plugin/tw-bs-grid";
-@source "hugo_stats.json";
+@import "@tailwindcss/forms";
+@import "@tailwindcss/typography";
 
-@custom-variant dark (&:where(.dark, .dark *));
+/* Скидаємо кастомні плагіни, бо вже зібрано через tailwind.config.js вручну */
 
 @import "./safe.css";
 @import "./utilities.css";
@@ -29,6 +26,5 @@
 @import "./accordion.css";
 @import "./modal.css";
 @import "./notice.css";
-
 @import "./module-overrides.css";
 @import "./custom.css";
