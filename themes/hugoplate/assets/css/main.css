@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Додаткові імпорти кастомних стилів */
+@import "./base.css";
+@import "./components.css";
+@import "./navigation.css";
+@import "./buttons.css";
+@import "./safe.css";
+@import "./utilities.css";
+@import "./search.css";
+@import "./social-share.css";
+@import "./gallery-slider.css";
+@import "./images.css";
+@import "./toc.css";
+@import "./tab.css";
+@import "./accordion.css";
+@import "./modal.css";
+@import "./notice.css";
+@import "./module-overrides.css";
+@import "./custom.css";
