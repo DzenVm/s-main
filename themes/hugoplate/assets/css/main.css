@@ -1,8 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
 
-/* Додаткові стилі з проекту */
+/* Додаткові стилі з проєкту */
 @import "./base.css";
 @import "./components.css";
 @import "./navigation.css";

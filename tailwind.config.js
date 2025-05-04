@@ -2,8 +2,7 @@ module.exports = {
     content: [
       './layouts/**/*.{html,js}',
       './content/**/*.{md,html}',
-      './themes/**/*.{html,js}',
-      './themes/**/*.{md}',
+      './themes/**/*.{html,js,md}',
     ],
     safelist: [
       'md:text-base',
