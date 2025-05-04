@@ -12,6 +12,8 @@ module.exports = {
     '!rounded-lg',
     '!ml-0',
     '!pt-0',
+    '!h-2.5', // обов'язково
+    'md:text-base', // бо теж була помилка
   ],
   theme: {
     extend: {
