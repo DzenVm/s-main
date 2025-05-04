@@ -1,9 +1,8 @@
-@import "tailwindcss";
-@import "@tailwindcss/forms";
-@import "@tailwindcss/typography";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-/* Скидаємо кастомні плагіни, бо вже зібрано через tailwind.config.js вручну */
-
+/* Додаткові стилі */
 @import "./safe.css";
 @import "./utilities.css";
 
